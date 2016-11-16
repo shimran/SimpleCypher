@@ -4,4 +4,8 @@ Read me for more details, but goal is to take a message and encrypt/decrypt base
 
 */
 
+#ADD ALPHABET for the Cypher shift
+#Will need to add a lower() function to induce case-sensitivity
+Alphabet_Key= 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
 
