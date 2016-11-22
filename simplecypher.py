@@ -18,7 +18,13 @@ shiftKey= input("Add Key for shift (must be 26 letters):")
 message = input("Enter phrase to be encrypted: ")
 flag = input("Do you want to set the ENCRYPT (E) or DECRYPT (D)?:")
 
-
+if (flag.upper() =='E')
+	encryptString(message, shiftKey)
+elif (flag.upper() == 'D')
+	decryptString(message, shiftKey)
+else
+	print ("Invalid option selected")
+	
 
 
 #Check if shift Key is valid, sort to see if list is the same length
@@ -31,8 +37,12 @@ def checkValidShiftKey(shiftKey,alphabetList):
 
 #Function for encryption
 
+def encryptString():
+
+
 #Function for decryption
 
+def decryptString():
 #Allows function to be imported as module
 if __name__ == '__main__':
 main()
